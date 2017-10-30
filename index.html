@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rugby Game</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<header id="game-title">
+		<div id="logo">
+			<div id="ball">
+			</div>
+			<div id="logo-text">
+				<h1>Rugby Championship</h1>
+			</div>
+		</div>
+	</header>
+	<div id="play-area">
+		<div id="player-name-display">
+		</div>
+		<div id="team-name-display">
+		</div>
+	</div>
+	<div id= "player-setup-modal" class="modal">
+		<div id="player-setup" class="modal-content">
+			<h1>Welcome!</h1>
+			<h3>Please enter your name and the team you want to manage!</h3>
+			<form id="player-setup-form">
+				<label id="first-name" for="firstName">
+					First Name:
+				</label>
+				<br>
+				<input type="text" id="first-name-entry">
+				<br>
+				<label id="last-name" for="lastName">
+					Last Name:
+				</label>
+				<br>
+				<input type="text" id="last-name-entry">
+				<br>
+				<label id="team-name" for="teamName">
+					Team Name:
+				</label>
+				<br>
+				<input type="text" id="team-name-entry">
+				<br>
+				<input id="name-submit" type="submit" value="Engage!">
+			</form>
+		</div>
+	</div>
+</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+	<script src="assets/js/Rugby.js"></script>
+</html>

@@ -1,0 +1,117 @@
+body{
+	background: url("../images/grass.png");
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+h1{
+	font-size: 27px;
+	font-style: bold;
+}
+
+h3{
+	font-size: 18px;
+}
+
+.hidden {
+	display: none;
+}
+
+#name-submit{
+	margin-top:40px;
+	margin-bottom:20px;
+}
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#player-setup{
+	background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */	
+}
+
+#play-area{
+	background-color: #D5F2E3;
+	height:30px;
+	width:100%;
+}
+#team-name-display{
+	margin-top:5px;
+	margin-right: 20px;
+	color: rgb(1, 17, 10);
+	font-size:20px;
+	float: right;
+	font-weight: bold;
+	font-family: 'Times New Roman', serif;
+}
+
+#player-name-display{
+	margin-top:5px;
+	margin-left:20px;
+	color: rgb(1, 17, 10);
+	float: left;
+	font-weight: bold;
+	font-size:20px;
+	font-family: 'Times New Roman', serif;
+}
+
+#game-title{
+	padding-top: 40px;
+	height:265px;
+	width:100%;
+	background-color: grey;
+	background: url("../images/grass-field.jpg");
+}
+#ball{
+	position: relative;
+	width: 190px;
+	height: 110px;
+	top:45px;
+	margin:auto;
+	background-color: #BA2D0B;
+	-moz-border-radius: 95px / 55px;
+	-webkit-border-radius: 95px / 55px;
+	border-radius: 95px / 55px;
+	-ms-transform: rotate(-50deg);
+	-webkit-transform: rotate(-50deg);
+	filter: drop-shadow(0 0 20px #003E1F);
+}
+
+#logo{
+	background-color: rgba(1, 17, 10, 0.8);
+	margin: auto;
+	height: 215px;
+	width: 100%;
+}
+
+#logo-text{
+	color: #D5F2E3;
+	position: relative;
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	top:-30px;
+	height:20px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	filter: drop-shadow(0 0 6px #73BA9B);
+}
